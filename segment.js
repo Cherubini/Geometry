@@ -21,5 +21,4 @@ class Segment{
     return length;
     }
 
-
 }
