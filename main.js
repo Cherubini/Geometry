@@ -18,13 +18,13 @@ console.log(segment1);
 const segment4= Segment.fromPointsCoordinates(1,1,4,5);
 console.log(segment4);
 
-console.log(segment4.calculateLength());
+console.log(segment4.calculateLength);
 
 const triangle1 = Triangle.fromPointToTriangle(point1,point2,point3,point4,point5,point6);
 
 console.log(triangle1);
-console.log(segment1.calculateLength());
-console.log(segment2.calculateLength());
-console.log(segment3.calculateLength());
+console.log(segment1.calculateLength);
+console.log(segment2.calculateLength);
+console.log(segment3.calculateLength);
 
 console.log(triangle1.calculateArea());

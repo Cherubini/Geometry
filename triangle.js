@@ -15,9 +15,9 @@ class Triangle{
         }
 
     calculateArea(){
-    const s1length=this.segment1.calculateLength()
-    const s2length=this.segment2.calculateLength()
-    const s3length=this.segment3.calculateLength()
+    const s1length=this.segment1.calculateLength
+    const s2length=this.segment2.calculateLength
+    const s3length=this.segment3.calculateLength
 
     const perimeter=s1length+s2length+s3length;
     const semiPerimeter=perimeter/2;

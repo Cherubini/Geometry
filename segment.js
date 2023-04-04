@@ -11,7 +11,7 @@ class Segment{
         return new Segment(pointA, pointB);
     }
 
-    calculateLength() {
+    get calculateLength() {
     const deltaX = this.pointA.x - this.pointB.x
     const deltaY = this.pointA.y - this.pointB.y;
 
