@@ -14,20 +14,20 @@ class Triangle{
         return new Triangle(p1,p2,p3);
         }
     
-        get _seg1()
-            {
-            return this.segment1
-            }
+    get _seg1()
+        {
+        return this.segment1
+        }
 
-        get _seg2()
-            {
-            return this.segment2
-            }
+    get _seg2()
+        {
+        return this.segment2
+        }
 
-        get _seg3()
-            {
-            return this.segment3
-            }
+    get _seg3()
+        {
+        return this.segment3
+        }
 
     
     calculatePerimeter(){
